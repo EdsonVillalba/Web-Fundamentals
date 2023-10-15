@@ -1,8 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans:wght@400;500;600;700&display=swap");
+
 #content {
   max-width: 1600px;
   margin: 0 auto;
   text-align: center;
   background-color: #fff;
+  font-weight: 500;
+}
+
+nav {
+  padding: 50px;
+  margin: 0 auto;
 }
 
 nav a {
@@ -10,69 +18,113 @@ nav a {
   text-decoration: none;
   background-color: #7f96ff;
   color: #000;
-  padding: 2px;
-  border-radius: 8px;
+  padding: 35px;
   margin: 0 10px;
-  
+  width: 100px;
+  font-weight: 500;
 }
 
-#hero-box{
-    margin-top: 5px;
+#hero-box {
+  margin-top: 5px;
 }
 #hero-msg h1,
 #hero-msg h4 {
   text-align: center;
 }
+
+.home-title {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 2em;
+  margin-top: 10px;
+}
+
+h2 {
+  font-weight: 600;
+  margin: 0;
+}
 .button-box {
   text-align: center;
-  margin-bottom: 10px;
+  margin: 10px 0;
 }
+
+.rivers-card,
+.camping-card,
+.rapids-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 200px 0;
+}
+
 main section {
   text-align: center;
+  font-weight: 500;
+}
+
+main section img {
+  box-sizing: border-box;
 }
 
 #background {
   height: 725px;
   background-color: #222;
+  margin-bottom: 25px;
 }
 
 body {
   background-color: #fff;
   color: #222;
+  font-size: 22px;
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 header {
   background-color: #7f96ff;
   padding: 2px;
 }
 nav a:hover {
-  background-color: #f5e663;
+  background-color: #0ca568;
   color: #000;
-  padding: 2px;
   border-radius: 5px;
-  
 }
+
 .book,
 .join {
-  background-color: #7f96ff;
+  background-color: #f5e663;
   text-decoration: none;
-  padding: 2px;
-  border-radius: 8px;
+  padding: 15px 30px;
+  border-radius: 5px;
   color: #000;
+  font-size: 18px;
+  margin-top: 50px;
 }
 .book:hover,
 .join:hover {
-  background-color: #f5e663;
+  background-color: #0ca568;
   color: #000;
 }
 .msg {
   background-color: #7f96ff;
-  padding: 5px;
+  padding: 35px;
+  line-height: 1.5em;
+  margin-top: 25px;
+}
+
+.msg p {
+  font-size: 0.8em;
+  padding-bottom: 15px;
 }
 footer {
   background-color: #7f96ff;
   color: #000;
-  padding: 5px;
+  padding: 25px 50px;
   font-size: 1.2em;
+  font-weight: 500;
+  margin-top: 200px;
 }
 
 footer p a {
@@ -81,14 +133,27 @@ footer p a {
 }
 
 footer p a:hover {
-  background-color: #f5e663;
+  background-color: #0ca568;
   color: #000;
-  padding: 2px;
+  padding: 5px;
   border-radius: 5px;
-  text-decoration: underline;
+  text-decoration: none;
+}
+
+footer .social img {
+  padding-top: 15px;
 }
 
 .logo {
-    width: 80px;
-    margin: 10px;
+  width: 80px;
+  margin: 10px;
+}
+
+.icon {
+  width: 80px;
+  padding-top: 10px;
+}
+
+.card-img {
+  border: 10px solid #7f96ff;
 }
