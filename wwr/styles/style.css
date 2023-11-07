@@ -129,7 +129,7 @@ header {
 }
 nav a:hover {
   background-color: #222;
-  color: #000;
+  color: #fff;
   border-radius: 5px;
 }
 
@@ -139,7 +139,7 @@ nav a:hover {
   text-decoration: none;
   padding: 15px 30px;
   border-radius: 5px;
-  color: #000;
+  color: #fff;
   font-size: 18px;
   margin-top: 50px;
 }
@@ -179,7 +179,7 @@ footer p a {
 
 footer p a:hover {
   background-color: #222;
-  color: #000;
+  color: #fff;
   border-radius: 5px;
   text-decoration: none;
 }
