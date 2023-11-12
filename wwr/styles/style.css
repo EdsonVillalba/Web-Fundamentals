@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans:wght@400;500;600;700&display=swap");
 
+* {box-sizing:border-box}
+
 #content {
   max-width: 1600px;
   margin: 0 auto;
@@ -303,4 +305,229 @@ footer .social img {
       margin-top: 25px;
   }
 }
-          
+  
+/* ---------------------- Page 2 ------------------------  */
+
+
+.slideshow-container {
+  max-width: 1400px;
+  position: relative;
+  margin: 10px auto;
+  
+}
+
+.mySlides {
+  display:none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  
+}
+
+.prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #fff;
+  background-color: #000;
+  opacity: 0.8;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.post{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #717171;
+  color: #f2f2f2;
+  
+}
+
+.post-img{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+
+}
+
+.pricipal{
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 65px;
+  
+}
+
+.secondary {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 5px 70px;
+}
+
+.secondary > .inside {
+  font-size: 12px;
+  width: 50%;
+  margin-left:50px;
+  margin-bottom: 30px;
+}
+
+.aside {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #717171;
+  
+}
+
+.aside > p {
+  font-size: 12px;
+}
+
+.aside > h4 {
+  display: flex;
+  align-items: flex-start;
+  margin-left:40px;
+  margin-top: 10px;
+}
+
+.trending {
+  display: flex;
+  flex-direction:  row;
+  align-items: center;
+  margin: 20px 0;
+  margin-left: 40px;
+}
+
+.insides {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.insides > h4 {
+  margin: 0;
+}
+
+.insides > p {
+  margin-top: 0;
+}
+
+.trending > .insides {
+  width: 50%;
+  margin-left:50px;
+  margin-bottom: 10px;
+}
+
+.choose {
+  width: 100%;
+  height: 100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  
+}
+
+.chooses{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: #222 solid 2px;
+  border-radius: 15px;
+  height: 200px;
+  width: 80%;
+  padding: 20px;
+}
+
+.chooses > button {
+  margin-top: 20px;
+  width: 120px;
+  padding: 15px;
+  border-radius: 7px;
+  background-color: #6f7364;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.chooses > button:hover {
+  background-color: #f5e663;
+  color: #222;
+}
