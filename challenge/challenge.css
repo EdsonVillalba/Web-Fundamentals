@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans:wght@400;500;600;700&display=swap');
+*{
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif,'Bebas Neue';
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #333;
+    
+   
+}
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 600px;
+    border-radius: 15px;
+    border: solid 1px black;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: auto;
+}
+
+.header-div{
+    width: 100vw;
+    height: 300px;
+}
+
+.img-header {
+    width: 100%;
+}
+
+.content {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    align-content: center;
+    background-color: #fff;
+    
+}
+
+.content > .titles {
+    margin: 0 30px;
+
+}
+
+.titles > h1 {
+    margin: 0;
+}
+
+.titles > p {
+    margin-top: 20px;
+    margin-bottom: 0;
+    color:#44556f ;
+    font-weight: 600;
+}
+
+.content > .subtitles {
+    margin: 0 30px;
+    margin-top: 15px;
+    color: #888;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    text-align: center; 
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    background-color:  #44556f;
+    
+}
+
+.foot-page{
+    width: 100%;
+    margin: 10px 0;
+    padding: 20px;
+}
+
+.foot-page > p {
+margin: 0;
+color: #fff;
+} 
+
+
+.border {
+    border-left: 1px solid #888;
+    border-right: 1px solid #888;
+}
