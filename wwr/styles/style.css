@@ -109,6 +109,7 @@ main section img {
 }
 
 body {
+  width: 100%;
   background: darkgrey;
   color: #222;
   font-size: 22px;
@@ -172,6 +173,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 footer p a {
@@ -294,6 +296,12 @@ footer .social img {
       margin: 50px auto;
       width: 60%;
   }
+  .post {
+    display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  }
   #background {
       display: none;
   }
@@ -304,6 +312,7 @@ footer .social img {
   }
   footer {
       margin-top: 25px;
+     
   }
 }
   
@@ -476,7 +485,8 @@ img.principal:hover {
 
 .trending {
   display: flex;
-  flex-direction:  row;
+  flex-wrap: wrap;
+  width: 100%;
   align-items: center;
   margin: 20px 0;
   margin-left: 40px;
