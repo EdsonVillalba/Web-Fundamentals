@@ -1,0 +1,345 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans:wght@400;500;600;700&display=swap");
+/* 
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Css Fotter & Nav General */
+
+body {
+  background-color: #333;
+}
+
+.Global-Header {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  padding: 1em;
+  background-color: #009fb7;
+  border-top: 5px solid #fe4a49;
+  border-bottom: 5px solid #fe4a49;
+}
+
+.navbar > .list {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-left: 100px;
+  list-style: none;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Noto Sans", sans-serif;
+  flex-wrap: wrap;
+  justify-content: center;
+  transition: all 1s;
+  gap: 150px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  
+}
+
+
+.navbar > ul > li > a:hover {
+    transform: scale(1.50);
+    color: #009fb7;
+    background-color: #333;
+    border-radius:7px;
+    padding: 10px;
+} 
+
+.navbar > a > img {
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+  transition: all 300ms;
+  box-shadow: 8px 4px 4px #333;
+}
+
+.Global-Footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 190px;
+  gap: 120px;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: "Noto Sans", sans-serif;
+  border-top: 5px solid #fe4a49;
+  border-bottom: 5px solid #fe4a49;
+  padding: 20px;
+  background-color: #009fb7;
+}
+
+/* Components Home CSS */
+
+.Home {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Noto Sans", sans-serif;
+  padding: 3em;
+  background-image: url(./images/rsz_2pexels-adrien-olichon-1024.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-wrap: wrap;
+}
+
+.title {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.sub-title {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  color: #fe4a49;
+}
+
+.introduction {
+  text-align: justify;
+  margin-bottom: 1rem;
+  margin-right: 20px;
+}
+
+.about {
+  text-align: justify;
+  height: 100%;
+}
+
+.about > p {
+  margin-bottom: 1rem;
+  margin-right: 20px;
+}
+
+.images {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  padding: 2em;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-I {
+  border-radius: 50%;
+  box-shadow: 8px 4px 4px #fed766;
+  opacity: 0.8;
+  transition: all 300ms;
+  width: 100%;
+  height: auto;
+}
+
+.img-I:hover {
+  opacity: 1;
+  transform: scale(1.15);
+}
+
+/* Components Projects CSS */
+
+.Projects {
+  max-width: 100%;
+  height: auto;
+}
+
+.title-p {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1.5em;
+  margin-bottom: 2.5em;
+  font-family: "Noto Sans", sans-serif;
+}
+.title-p > .pc-title {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 48px;
+  font-weight: 800;
+  color: #fe4a49;
+  border-bottom: 4px solid #e6e6ea;
+  padding: 15px;
+}
+
+.W-project {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  color: #e6e6ea;
+  padding: 15px;
+  text-align: center;
+}
+
+.projects-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 3em;
+  margin: 3rem 3rem;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  border: solid 1em #009fb7;
+  margin-bottom: 3em;
+  box-shadow: 12px 6px 6px #e6e6ea;
+}
+
+.with {
+  margin: 0 auto;
+  max-width: 100%;
+  opacity: 0.7;
+}
+
+.with:hover {
+  opacity: 1;
+}
+
+.project-title {
+  display: flex;
+  justify-content: center;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  color: #009fb7;
+  padding: 15px;
+  opacity: 0.4;
+  transition: all 400ms;
+}
+
+.project-title:hover {
+  opacity: 1;
+  transform: scale(1.5);
+}
+
+.enlace {
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+/* My Logo */
+
+#Logo {
+  display: flex;
+  justify-content: center;
+  padding: 5em 5em;
+  width: 100vw;
+  height: auto;
+}
+
+.My-Logo > p {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+  padding-bottom: 2em;
+  display: flex;
+  justify-content: center;
+}
+
+.My-Logo {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 500px;
+}
+
+/* Components Contact Me CSS */
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.title-c {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 100vw;
+  margin: 0 auto;
+
+}
+
+.title-c > p {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 5rem;
+  color: #e6e6ea;
+}
+
+.title-c > span {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 18px;
+  color: #e6e6ea;
+}
+
+.icons {
+    margin-top: 70px;
+}
+
+.container-icons {
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-size: 34px;
+
+}
+
+
+/* Media Querys */
+
+@media (max-width: 1580px) {
+  .Home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .projects-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .img-I {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+}
+
+@media (max-width: 1000px) {
+  .My-logo {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .My-logo {
+    width: 100%;
+    height: auto;
+  }
+}
