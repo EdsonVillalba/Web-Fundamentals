@@ -385,6 +385,59 @@ body {
   width: 100%;
 }
 
+
+/* Add component */
+.card {
+  box-shadow: 0 4px 8px 15px #fed766;
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 5px;
+  }
+
+.card > h1 {
+  color: #222;
+}
+
+.card > p {
+  color: #222;
+  font-weight: 700;
+}
+
+.title-component {
+  color: #333;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #222;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 20px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+
+}
+
+a > i{
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+  
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
 /* Media Querys */
 
 @media (max-width: 1580px) {
@@ -513,3 +566,4 @@ body {
     gap: 60px;
   }
 }
+
