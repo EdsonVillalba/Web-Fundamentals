@@ -181,7 +181,7 @@ body {
   margin-bottom: 1rem;
 }
 
-.images {
+/* .images {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -200,7 +200,7 @@ body {
 .img-I:hover {
   opacity: 1;
   transform: scale(1.1);
-}
+} */
 
 /* Components Projects CSS */
 
