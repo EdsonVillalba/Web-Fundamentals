@@ -111,14 +111,14 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 5%;
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 400;
   font-family: "Noto Sans", sans-serif;
   padding: 3em;
 }
 
 .Home-2 {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 400;
   font-family: "Noto Sans", sans-serif;
   padding: 3em;
@@ -164,6 +164,7 @@ body {
   text-align: justify;
   text-indent: 2%;
   height: 100%;
+  font-size: 22px;
 }
 
 .about > p {
@@ -394,6 +395,7 @@ body {
   text-align: center;
   background-color: #fff;
   border-radius: 5px;
+  margin-top: 50px;
   }
 
 .card > h1 {
