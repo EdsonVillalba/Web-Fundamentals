@@ -447,7 +447,6 @@ button:hover, a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    font-size: auto;
   }
 
   
