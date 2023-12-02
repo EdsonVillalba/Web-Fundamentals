@@ -336,7 +336,7 @@ body {
 /* Components Contact CSS */
 
 .contact {
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
   justify-content: center;
@@ -375,15 +375,18 @@ body {
 }
 
 .container-icons {
-  display: grid;
-  grid-template-columns: repeat(5,20%);
-  grid-column: 3/5;
-  gap: 120px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.container-icons > a > i{
+  display: flex;
   justify-content: center;
   align-items: center;
-  list-style: none;
   font-size: 3rem;
   width: 100%;
+  color: #e6e6ea;
 }
 
 
