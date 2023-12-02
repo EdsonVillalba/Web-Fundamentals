@@ -447,6 +447,11 @@ button:hover, a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    font-size: auto;
+  }
+
+  .Home-2{
+    font-size: auto;
   }
   .projects-content {
     display: flex;
@@ -484,6 +489,9 @@ button:hover, a:hover {
     flex-wrap: wrap;
     justify-content: center;
   }
+  .Home-2{
+    font-size: auto;
+  }
   .projects-content {
     display: flex;
     flex-wrap: wrap;
@@ -518,6 +526,9 @@ button:hover, a:hover {
     flex-wrap: wrap;
     justify-content: center;
   }
+  .Home-2{
+    font-size: auto;
+  }
   .projects-content {
     display: flex;
     flex-wrap: wrap;
@@ -547,6 +558,9 @@ button:hover, a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+  }
+  .Home-2{
+    font-size: auto;
   }
   .projects-content {
     display: flex;
